@@ -2,8 +2,6 @@ Hello::Application.routes.draw do
 
   match "hello/index" => "hello#index"
 
-  match "hello/again" => "hello#again"
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
